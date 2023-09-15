@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From studio portraits to epic alpine landscapes, browse the best photography, retouching and photojournalism today."/>
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
     body {
       background-color: #1c1c1c;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
       display: flex;
       flex-direction: column;
@@ -39,7 +42,6 @@
       0% {
         transform: rotate(0deg);
       }
-
       100% {
         transform: rotate(360deg);
       }
@@ -52,7 +54,7 @@
     }
 
     .description {
-      color: #fff;
+      color: #FFF;
       font-size: 20px;
       line-height: 1.5;
       max-width: 600px;
@@ -74,23 +76,24 @@
     @keyframes animatebottom {
       from {
         bottom: -100px;
-        opacity: 0;
+        opacity: 0
       }
-
       to {
         bottom: 0;
-        opacity: 1;
+        opacity: 1
       }
     }
   </style>
 </head>
+
 <body>
   <div id="loader"></div>
   <div class="message animate-bottom">
     <p class="description">
-      Please wait a moment. Our servers may be under high load causing some slowness.<br>If you have any issues, please
-      <a class="discord-link" href="https://discord.gg/gointerstellar" target="_blank">join our Discord server</a>.
+      Please wait a moment. Our servers may be under high load causing some slowness.<br>If you have any issues, please <a class="discord-link" href="https://discord.gg/gointerstellar" target="_blank">join our Discord server</a>.
     </p>
   </div>
+  <script src="/scripts/customIcon.js"></script>
 </body>
+
 </html>
